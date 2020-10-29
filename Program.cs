@@ -224,9 +224,9 @@ namespace TicketingSystem
                         Console.WriteLine("Enter Ticket Priority");
                         string priorityInput = Console.ReadLine();
 
-                        var priorityBugDefectSearch = bugDefectTicketFile.BugDefectTickets.Where(m => m.status.ToLower().Contains($"{priorityInput}"));
-                        var priorityEnhancementSearch = enhancementTicketFile.EnhancementTickets.Where(m => m.status.ToLower().Contains($"{priorityInput}"));
-                        var priorityTaskSearch = taskTicketFile.TaskTickets.Where(m => m.status.ToLower().Contains($"{priorityInput}"));
+                        var priorityBugDefectSearch = bugDefectTicketFile.BugDefectTickets.Where(m => m.priority.ToLower().Contains($"{priorityInput}"));
+                        var priorityEnhancementSearch = enhancementTicketFile.EnhancementTickets.Where(m => m.priority.ToLower().Contains($"{priorityInput}"));
+                        var priorityTaskSearch = taskTicketFile.TaskTickets.Where(m => m.priority.ToLower().Contains($"{priorityInput}"));
 
                         Console.WriteLine($"There are {priorityBugDefectSearch.Count()+priorityEnhancementSearch.Count()+priorityTaskSearch.Count()} {priorityInput} tickets:");
                         
@@ -244,10 +244,9 @@ namespace TicketingSystem
                         Console.WriteLine("Enter Ticket Submitter");
                         string submitterInput = Console.ReadLine();
 
-                        
-                        var submitterBugDefectSearch = bugDefectTicketFile.BugDefectTickets.Where(m => m.status.ToLower().Contains($"{submitterInput}"));
-                        var submitterEnhancementSearch = enhancementTicketFile.EnhancementTickets.Where(m => m.status.ToLower().Contains($"{submitterInput}"));
-                        var submitterTaskSearch = taskTicketFile.TaskTickets.Where(m => m.status.ToLower().Contains($"{submitterInput}"));
+                        var submitterBugDefectSearch = bugDefectTicketFile.BugDefectTickets.Where(m => m.submitter.ToLower().Contains($"{submitterInput}"));
+                        var submitterEnhancementSearch = enhancementTicketFile.EnhancementTickets.Where(m => m.submitter.ToLower().Contains($"{submitterInput}"));
+                        var submitterTaskSearch = taskTicketFile.TaskTickets.Where(m => m.submitter.ToLower().Contains($"{submitterInput}"));
 
                         Console.WriteLine($"There are {submitterBugDefectSearch.Count()+submitterEnhancementSearch.Count()+submitterTaskSearch.Count()} tickets submitted by {submitterInput}:");
                         
