@@ -208,16 +208,16 @@ namespace TicketingSystem
                         var statusEnhancementSearch = enhancementTicketFile.EnhancementTickets.Where(m => m.status.ToLower().Contains($"{statusInput}"));
                         var statusTaskSearch = taskTicketFile.TaskTickets.Where(m => m.status.ToLower().Contains($"{statusInput}"));
 
-                        Console.WriteLine($"There are {statusBugDefectSearch.Count()+statusTaskSearch.Count()+statusEnhancementSearch.Count()} {statusInput} status tickets:");
+                        Console.WriteLine($"There are {statusBugDefectSearch.Count()+statusTaskSearch.Count()+statusEnhancementSearch.Count()} {statusInput} status tickets:\n");
                         
                         Console.WriteLine("Bug Defect Tickets:");
-                        foreach (BugDefect m in statusBugDefectSearch){Console.WriteLine($" {m.ticketId}, {m.summary}, {m.status}, {m.priority}, {m.submitter}, {m.assigned}, {m.watching}, {m.severity}");}
+                        foreach (BugDefect m in statusBugDefectSearch){ Console.WriteLine($" {m.Display()}"); }
 
                         Console.WriteLine("Enhancement Tickets:");
-                        foreach (Enhancement m in statusEnhancementSearch){Console.WriteLine($" {m.ticketId}, {m.summary}, {m.status}, {m.priority}, {m.submitter}, {m.assigned}, {m.watching}, {m.software}, {m.cost}, {m.reason}");}
+                        foreach (Enhancement m in statusEnhancementSearch){ Console.WriteLine($" {m.Display()}"); }
 
                         Console.WriteLine("Task Tickets:");
-                        foreach (Task m in statusTaskSearch){Console.WriteLine($" {m.ticketId}, {m.summary}, {m.status}, {m.priority}, {m.submitter}, {m.assigned}, {m.watching}, {m.projectName}, {m.dueDate}");}
+                        foreach (Task m in statusTaskSearch){ Console.WriteLine($" {m.Display()}"); }
                     }
                     else if (searchChoice == "2")
                     {
@@ -228,16 +228,15 @@ namespace TicketingSystem
                         var priorityEnhancementSearch = enhancementTicketFile.EnhancementTickets.Where(m => m.priority.ToLower().Contains($"{priorityInput}"));
                         var priorityTaskSearch = taskTicketFile.TaskTickets.Where(m => m.priority.ToLower().Contains($"{priorityInput}"));
 
-                        Console.WriteLine($"There are {priorityBugDefectSearch.Count()+priorityEnhancementSearch.Count()+priorityTaskSearch.Count()} {priorityInput} tickets:");
+                        Console.WriteLine($"There are {priorityBugDefectSearch.Count()+priorityEnhancementSearch.Count()+priorityTaskSearch.Count()} {priorityInput} tickets:\n");
                         
                         Console.WriteLine("Bug Defect Tickets:");
-                        foreach (BugDefect m in priorityBugDefectSearch){Console.WriteLine($" {m.ticketId}, {m.summary}, {m.status}, {m.priority}, {m.submitter}, {m.assigned}, {m.watching}, {m.severity}");}
+                        foreach (BugDefect m in priorityBugDefectSearch){ Console.WriteLine($" {m.Display()}"); }
 
                         Console.WriteLine("Enhancement Tickets:");
-                        foreach (Enhancement m in priorityEnhancementSearch){Console.WriteLine($" {m.ticketId}, {m.summary}, {m.status}, {m.priority}, {m.submitter}, {m.assigned}, {m.watching}, {m.software}, {m.cost}, {m.reason}");}
-
+                        foreach (Enhancement m in priorityEnhancementSearch){ Console.WriteLine($" {m.Display()}"); }
                         Console.WriteLine("Task Tickets:");
-                        foreach (Task m in priorityTaskSearch){Console.WriteLine($" {m.ticketId}, {m.summary}, {m.status}, {m.priority}, {m.submitter}, {m.assigned}, {m.watching}, {m.projectName}, {m.dueDate}");}
+                        foreach (Task m in priorityTaskSearch){ Console.WriteLine($" {m.Display()}"); }
                     }
                     else if (searchChoice == "3")
                     {
@@ -248,16 +247,15 @@ namespace TicketingSystem
                         var submitterEnhancementSearch = enhancementTicketFile.EnhancementTickets.Where(m => m.submitter.ToLower().Contains($"{submitterInput}"));
                         var submitterTaskSearch = taskTicketFile.TaskTickets.Where(m => m.submitter.ToLower().Contains($"{submitterInput}"));
 
-                        Console.WriteLine($"There are {submitterBugDefectSearch.Count()+submitterEnhancementSearch.Count()+submitterTaskSearch.Count()} tickets submitted by {submitterInput}:");
+                        Console.WriteLine($"There are {submitterBugDefectSearch.Count()+submitterEnhancementSearch.Count()+submitterTaskSearch.Count()} tickets submitted by {submitterInput}:\n");
                         
                         Console.WriteLine("Bug Defect Tickets:");
-                        foreach (BugDefect m in submitterBugDefectSearch){Console.WriteLine($" {m.ticketId}, {m.summary}, {m.status}, {m.priority}, {m.submitter}, {m.assigned}, {m.watching}, {m.severity}");}
+                        foreach (BugDefect m in submitterBugDefectSearch){ Console.WriteLine($" {m.Display()}"); }
 
                         Console.WriteLine("Enhancement Tickets:");
-                        foreach (Enhancement m in submitterEnhancementSearch){Console.WriteLine($" {m.ticketId}, {m.summary}, {m.status}, {m.priority}, {m.submitter}, {m.assigned}, {m.watching}, {m.software}, {m.cost}, {m.reason}");}
-
+                        foreach (Enhancement m in submitterEnhancementSearch){ Console.WriteLine($" {m.Display()}"); }
                         Console.WriteLine("Task Tickets:");
-                        foreach (Task m in submitterTaskSearch){Console.WriteLine($" {m.ticketId}, {m.summary}, {m.status}, {m.priority}, {m.submitter}, {m.assigned}, {m.watching}, {m.projectName}, {m.dueDate}");}
+                        foreach (Task m in submitterTaskSearch){ Console.WriteLine($" {m.Display()}"); }
                     }
                 }
             } while (choice == "1" || choice == "2" || choice == "3");

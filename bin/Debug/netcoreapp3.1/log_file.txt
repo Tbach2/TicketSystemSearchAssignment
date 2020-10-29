@@ -91,3 +91,52 @@
 2020-10-28 17:51:08.1403|INFO|TicketingSystem.Program|User choice: "3"
 2020-10-28 17:52:31.2892|INFO|TicketingSystem.Program|User choice: ""
 2020-10-28 17:52:31.2952|INFO|TicketingSystem.Program|Program ended
+2020-10-28 17:55:39.5730|INFO|TicketingSystem.Program|Program started
+2020-10-28 17:55:39.6056|INFO|TicketingSystem.BugDefectTicketFile|Tickets in file: 3
+2020-10-28 17:55:39.6056|INFO|TicketingSystem.EnhancementTicketFile|Tickets in file: 2
+2020-10-28 17:55:39.6227|INFO|TicketingSystem.TaskTicketFile|Tickets in file: 2
+2020-10-28 17:55:40.2843|INFO|TicketingSystem.Program|User choice: "3"
+2020-10-28 18:16:13.7649|INFO|TicketingSystem.Program|User choice: ""
+2020-10-28 18:16:13.7649|INFO|TicketingSystem.Program|Program ended
+2020-10-28 18:16:17.9201|INFO|TicketingSystem.Program|Program started
+2020-10-28 18:16:17.9554|INFO|TicketingSystem.BugDefectTicketFile|Tickets in file: 3
+2020-10-28 18:16:17.9666|INFO|TicketingSystem.EnhancementTicketFile|Tickets in file: 2
+2020-10-28 18:16:17.9666|INFO|TicketingSystem.TaskTicketFile|Tickets in file: 2
+2020-10-28 18:16:18.6758|INFO|TicketingSystem.Program|User choice: "3"
+2020-10-28 18:18:10.9764|INFO|TicketingSystem.Program|User choice: "d"
+2020-10-28 18:18:10.9896|INFO|TicketingSystem.Program|Program ended
+2020-10-28 18:19:42.3337|INFO|TicketingSystem.Program|Program started
+2020-10-28 18:19:42.3661|INFO|TicketingSystem.BugDefectTicketFile|Tickets in file: 3
+2020-10-28 18:19:42.3773|INFO|TicketingSystem.EnhancementTicketFile|Tickets in file: 2
+2020-10-28 18:19:42.3773|INFO|TicketingSystem.TaskTicketFile|Tickets in file: 2
+2020-10-28 18:19:44.4544|INFO|TicketingSystem.Program|User choice: "3"
+2020-10-28 18:20:58.4137|INFO|TicketingSystem.Program|User choice: ""
+2020-10-28 18:20:58.4203|INFO|TicketingSystem.Program|Program ended
+2020-10-28 18:21:02.0768|INFO|TicketingSystem.Program|Program started
+2020-10-28 18:21:02.1088|INFO|TicketingSystem.BugDefectTicketFile|Tickets in file: 3
+2020-10-28 18:21:02.1199|INFO|TicketingSystem.EnhancementTicketFile|Tickets in file: 2
+2020-10-28 18:21:02.1199|INFO|TicketingSystem.TaskTicketFile|Tickets in file: 2
+2020-10-28 18:21:08.0144|INFO|TicketingSystem.Program|User choice: "3"
+2020-10-28 18:21:24.3005|INFO|TicketingSystem.Program|User choice: ""
+2020-10-28 18:21:24.3005|INFO|TicketingSystem.Program|Program ended
+2020-10-28 18:21:28.5560|INFO|TicketingSystem.Program|Program started
+2020-10-28 18:21:28.5904|INFO|TicketingSystem.BugDefectTicketFile|Tickets in file: 3
+2020-10-28 18:21:28.5904|INFO|TicketingSystem.EnhancementTicketFile|Tickets in file: 2
+2020-10-28 18:21:28.6077|INFO|TicketingSystem.TaskTicketFile|Tickets in file: 2
+2020-10-28 18:21:32.8335|INFO|TicketingSystem.Program|User choice: "3"
+2020-10-28 18:22:56.5635|INFO|TicketingSystem.Program|User choice: ""
+2020-10-28 18:22:56.5738|INFO|TicketingSystem.Program|Program ended
+2020-10-28 18:23:00.7183|INFO|TicketingSystem.Program|Program started
+2020-10-28 18:23:00.7507|INFO|TicketingSystem.BugDefectTicketFile|Tickets in file: 3
+2020-10-28 18:23:00.7620|INFO|TicketingSystem.EnhancementTicketFile|Tickets in file: 2
+2020-10-28 18:23:00.7620|INFO|TicketingSystem.TaskTicketFile|Tickets in file: 2
+2020-10-28 18:23:02.2764|INFO|TicketingSystem.Program|User choice: "3"
+2020-10-28 18:26:37.2775|INFO|TicketingSystem.Program|User choice: ""
+2020-10-28 18:26:37.2775|INFO|TicketingSystem.Program|Program ended
+2020-10-28 18:26:40.9231|INFO|TicketingSystem.Program|Program started
+2020-10-28 18:26:40.9563|INFO|TicketingSystem.BugDefectTicketFile|Tickets in file: 3
+2020-10-28 18:26:40.9676|INFO|TicketingSystem.EnhancementTicketFile|Tickets in file: 2
+2020-10-28 18:26:40.9676|INFO|TicketingSystem.TaskTicketFile|Tickets in file: 2
+2020-10-28 18:26:42.9586|INFO|TicketingSystem.Program|User choice: "3"
+2020-10-28 18:27:03.6979|INFO|TicketingSystem.Program|User choice: ""
+2020-10-28 18:27:03.6979|INFO|TicketingSystem.Program|Program ended
