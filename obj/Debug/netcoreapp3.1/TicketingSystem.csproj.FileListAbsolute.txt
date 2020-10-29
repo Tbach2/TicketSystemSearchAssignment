@@ -1,0 +1,17 @@
+C:\Users\bachs\Desktop\School\.Net Databases\Projects\TicketSystemSearchAssignment\TicketingSystem\bin\Debug\netcoreapp3.1\TicketingSystem.exe
+C:\Users\bachs\Desktop\School\.Net Databases\Projects\TicketSystemSearchAssignment\TicketingSystem\bin\Debug\netcoreapp3.1\TicketingSystem.deps.json
+C:\Users\bachs\Desktop\School\.Net Databases\Projects\TicketSystemSearchAssignment\TicketingSystem\bin\Debug\netcoreapp3.1\TicketingSystem.runtimeconfig.json
+C:\Users\bachs\Desktop\School\.Net Databases\Projects\TicketSystemSearchAssignment\TicketingSystem\bin\Debug\netcoreapp3.1\TicketingSystem.runtimeconfig.dev.json
+C:\Users\bachs\Desktop\School\.Net Databases\Projects\TicketSystemSearchAssignment\TicketingSystem\bin\Debug\netcoreapp3.1\TicketingSystem.dll
+C:\Users\bachs\Desktop\School\.Net Databases\Projects\TicketSystemSearchAssignment\TicketingSystem\bin\Debug\netcoreapp3.1\TicketingSystem.pdb
+C:\Users\bachs\Desktop\School\.Net Databases\Projects\TicketSystemSearchAssignment\TicketingSystem\bin\Debug\netcoreapp3.1\NLog.dll
+C:\Users\bachs\Desktop\School\.Net Databases\Projects\TicketSystemSearchAssignment\TicketingSystem\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+C:\Users\bachs\Desktop\School\.Net Databases\Projects\TicketSystemSearchAssignment\TicketingSystem\bin\Debug\netcoreapp3.1\NLog.Web.AspNetCore.dll
+C:\Users\bachs\Desktop\School\.Net Databases\Projects\TicketSystemSearchAssignment\TicketingSystem\obj\Debug\netcoreapp3.1\TicketingSystem.csprojAssemblyReference.cache
+C:\Users\bachs\Desktop\School\.Net Databases\Projects\TicketSystemSearchAssignment\TicketingSystem\obj\Debug\netcoreapp3.1\TicketingSystem.AssemblyInfoInputs.cache
+C:\Users\bachs\Desktop\School\.Net Databases\Projects\TicketSystemSearchAssignment\TicketingSystem\obj\Debug\netcoreapp3.1\TicketingSystem.AssemblyInfo.cs
+C:\Users\bachs\Desktop\School\.Net Databases\Projects\TicketSystemSearchAssignment\TicketingSystem\obj\Debug\netcoreapp3.1\TicketingSystem.csproj.CoreCompileInputs.cache
+C:\Users\bachs\Desktop\School\.Net Databases\Projects\TicketSystemSearchAssignment\TicketingSystem\obj\Debug\netcoreapp3.1\TicketingSystem.csproj.CopyComplete
+C:\Users\bachs\Desktop\School\.Net Databases\Projects\TicketSystemSearchAssignment\TicketingSystem\obj\Debug\netcoreapp3.1\TicketingSystem.dll
+C:\Users\bachs\Desktop\School\.Net Databases\Projects\TicketSystemSearchAssignment\TicketingSystem\obj\Debug\netcoreapp3.1\TicketingSystem.pdb
+C:\Users\bachs\Desktop\School\.Net Databases\Projects\TicketSystemSearchAssignment\TicketingSystem\obj\Debug\netcoreapp3.1\TicketingSystem.genruntimeconfig.cache
